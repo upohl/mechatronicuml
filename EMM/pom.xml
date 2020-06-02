@@ -132,4 +132,11 @@
 			<url>http://download.eclipse.org/releases/oxygen</url>
 		</repository>
    </repositories>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/upohl/mechatronicuml</url>
+    </repository>
+  </distributionManagement>
 </project>
